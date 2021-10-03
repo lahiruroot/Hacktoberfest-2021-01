@@ -1,0 +1,16 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(42, 162, 145, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+h1 {
+  color: blue;
+}
+p {
+  color: white;
+  size: 20px;
+}

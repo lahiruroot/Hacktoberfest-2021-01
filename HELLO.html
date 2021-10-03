@@ -1,20 +1,42 @@
 <!DOCTYPE html>
 <html>
-<body>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Radio Buttons</h2>
 
-<h2>Radio Buttons</h2>
+    <p>Choose your favorite Web language:</p>
 
-<p>Choose your favorite Web language:</p>
+    <form>
+        <input type="radio" id="html" name="fav_language" value="HTML" />  
+      <label for="html">HTML</label><br />
+        <input type="radio" id="css" name="fav_language" value="CSS" />  
+      <label for="css">CSS</label><br />
+       
+      <input
+        type="radio"
+        id="javascript"
+        name="fav_language"
+        value="JavaScript"
+      />
+        <label for="javascript">JavaScript</label>
+    </form>
+    <br />
 
-<form>
-  <input type="radio" id="html" name="fav_language" value="HTML">
-  <label for="html">HTML</label><br>
-  <input type="radio" id="css" name="fav_language" value="CSS">
-  <label for="css">CSS</label><br>
-  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-  <label for="javascript">JavaScript</label>
-</form> 
+    <h2>Check box</h2>
+    <p>Choose your favorite Code Editor</p>
+    <form>
+        <input type="checkbox" name="fav_editor" value="Atom" />  
+      <label for="Atom">Atom</label><br />
 
-</body>
+        <input type="checkbox" name="fav_editor" value="VScode" />  
+      <label for="VScode">VS Code</label><br />
+        <input type="checkbox" name="fav_editor" value="Sublime" />  
+      <label for="Sublime">Sublime</label><br />
+       
+      <input type="checkbox" name="fav_editor" />
+        <label for="Notepad++">Notepad++</label>
+    </form>
+  </body>
 </html>
-
