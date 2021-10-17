@@ -1,5 +1,5 @@
 <script>
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
+const cars = ["BMW", "BENZ", "TOYOTA", "NISSAN"];
 
 let text = "<ul>";
 fruits.forEach(myFunction);
