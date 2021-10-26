@@ -3,9 +3,21 @@
 <title>HTML Tutorial</title>
 <body>
 
+<canvas id="myCanvas">
+Your browser does not support the canvas tag.
+</canvas>
+
+<script>
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "#FF0000";
+ctx.fillRect(0, 0, 80, 80);
+</script>
+  
 <h1>This is a heading</h1>
 <p>This is a paragraph.</p>
 <button>This is a button</button>
+
 
 </body>
 </html>
